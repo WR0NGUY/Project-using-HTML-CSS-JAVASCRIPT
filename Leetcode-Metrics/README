@@ -1,0 +1,10 @@
+LeetMetrics is a web application designed to show the progress of a user on LeetCode based on their submitted solutions. By entering a valid LeetCode username, users can view their progress in solving problems across different difficulty levels (Easy, Medium, Hard) as well as key statistics on their submissions.
+
+Features
+Displays user progress in solving problems categorized by difficulty: Easy, Medium, and Hard.
+
+Provides submission statistics, including overall submissions and submissions per difficulty level.
+
+Interactive UI with circular progress bars representing the solved problems in each category.
+
+Fetches data using LeetCode’s GraphQL API, allowing real-time tracking of user progress.

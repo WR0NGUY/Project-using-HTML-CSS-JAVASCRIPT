@@ -8,3 +8,8 @@ Provides submission statistics, including overall submissions and submissions pe
 Interactive UI with circular progress bars representing the solved problems in each category.
 
 Fetches data using LeetCode’s GraphQL API, allowing real-time tracking of user progress.
+
+Notes
+Ensure the username entered is a valid LeetCode username; otherwise, data will not be fetched.
+
+The application uses a proxy server (https://cors-anywhere.herokuapp.com) to bypass CORS restrictions when fetching data from LeetCode’s GraphQL API.

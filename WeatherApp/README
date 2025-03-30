@@ -1,0 +1,25 @@
+This Weather App allows users to check the current weather conditions for any city around the world. It uses the WeatherAPI to fetch live weather data, which is then displayed on the page, including information such as temperature, weather description, and city name.Pass US Zipcode, UK Postcode, Canada Postalcode, IP address, Latitude/Longitude (decimal degree) or city name.
+
+Features
+Get current weather for any city by entering the city's name.
+
+Displays the city name, current temperature, and weather description.
+
+Simple and clean UI for easy user interaction.
+
+Handles errors, such as invalid city names or API issues.
+
+How It Works
+User Input:
+The user enters the name of a city in the input field and clicks the "Get Weather" button.
+
+API Request:
+JavaScript makes a request to the WeatherAPI to fetch the current weather data for the entered city.
+
+The API returns a JSON object containing the weather details such as temperature, description, and city name.
+
+Data Display:
+The weather details (city name, temperature, and description) are displayed on the webpage.
+
+Error Handling:
+If the city is not found or if there’s a problem with the API request, an error message is shown to the user.

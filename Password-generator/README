@@ -1,0 +1,6 @@
+This project creates a simple web-based random password generator using HTML, CSS, and JavaScript. The tool allows users to generate strong and random passwords with a click of a button.
+
+Features
+Generate random passwords with letters, numbers, and special characters.
+Easy-to-use interface with a button to trigger password generation.
+Password is displayed in a read-only input field for easy copying.

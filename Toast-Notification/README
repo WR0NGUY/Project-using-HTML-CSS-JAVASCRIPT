@@ -1,0 +1,5 @@
+This project demonstrates how to implement a toast notification system alongside a QR code generator using HTML, CSS, and JavaScript. It utilizes the QRCode.js library to generate QR codes dynamically based on user input.
+
+Features
+Toast Notification: A small, unobtrusive message that appears on the screen for a few seconds, typically used for system feedback or updates.
+QR Code Generator: Users can input text, and a corresponding QR code will be generated and displayed dynamically.

@@ -3,14 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Toast Notification Example</title>
+  <title>Toast Notification with QR Code</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
 </head>
 <body>
 
   <!-- Toast Notification -->
   <div id="toast" class="toast">
     This is a toast notification!
+  </div>
+
+  <!-- QR Code Generator Section -->
+  <div id="qr-code-section">
+    <input type="text" id="qr-input" placeholder="Enter text for QR code">
+    <button onclick="generateQRCode()">Generate QR Code</button>
+    <div id="qr-code"></div>
   </div>
 
   <button onclick="showToast()">Show Toast</button>

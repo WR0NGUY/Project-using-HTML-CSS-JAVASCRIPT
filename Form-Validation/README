@@ -1,0 +1,7 @@
+This is a simple form validation example built with HTML, CSS, and JavaScript. The form includes fields for **Full Name**, **Email**, **Password**, and **Confirm Password**, with validation to ensure all fields are properly filled in and that the passwords match.
+
+## Features:
+- **Required Fields**: Ensures that the Full Name, Email, Password, and Confirm Password fields are filled.
+- **Email Validation**: The email field is validated to ensure it follows a correct email format.
+- **Password Match**: The password and confirm password fields are compared to ensure they match.
+- **Error Messages**: Displays error messages for invalid fields and prevents form submission until all fields are valid.

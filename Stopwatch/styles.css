@@ -44,3 +44,11 @@ body {
 .controls .btn:focus {
     outline: none;
 }
+
+#countdownInput {
+    width: 80px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 1rem;
+    text-align: center;
+}

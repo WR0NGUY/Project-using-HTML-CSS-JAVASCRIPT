@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stopwatch</title>
+    <title>Stopwatch with Countdown</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -12,6 +12,12 @@
         <div class="controls">
             <button id="startStop" class="btn">Start</button>
             <button id="reset" class="btn">Reset</button>
+            <input type="number" id="countdownInput" placeholder="Set time (min)" min="1" />
+            <button id="countdownMode" class="btn">Switch to Countdown</button>
+        </div>
+        <div id="laps" class="laps">
+            <h3>Laps:</h3>
+            <ul id="lapList"></ul>
         </div>
     </div>
 

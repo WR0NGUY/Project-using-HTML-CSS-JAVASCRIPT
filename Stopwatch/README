@@ -1,7 +1,8 @@
-This is a simple stopwatch application built using HTML, CSS, and JavaScript. The app allows users to start, stop, and reset a stopwatch with ease. It also displays the time in the format HH:MM:SS.
+This is a simple web-based stopwatch application that allows you to switch between a stopwatch and a countdown timer. Users can set a specific time (e.g., 5 minutes) for the countdown, and the timer will count down to zero. In stopwatch mode, the timer counts up, just like a regular stopwatch.
 
 Features
-Start/Stop the stopwatch.
-Reset the stopwatch to 00:00:00.
-Time is displayed in the format HH:MM:SS.
-Responsive design suitable for desktop and mobile use.
+Stopwatch Mode: Allows users to count up from 00:00:00 with start, stop, and reset functionality.
+Countdown Mode: Allows users to set a specific countdown time in minutes. The timer counts down to zero, alerting the user when time is up.
+Time Format: Time is displayed in the HH:MM:SS format.
+Mode Toggle: Easily switch between Stopwatch and Countdown modes.
+Responsive: Designed to work on both desktop and mobile devices.

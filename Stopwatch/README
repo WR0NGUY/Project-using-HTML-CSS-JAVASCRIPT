@@ -1,0 +1,7 @@
+This is a simple stopwatch application built using HTML, CSS, and JavaScript. The app allows users to start, stop, and reset a stopwatch with ease. It also displays the time in the format HH:MM:SS.
+
+Features
+Start/Stop the stopwatch.
+Reset the stopwatch to 00:00:00.
+Time is displayed in the format HH:MM:SS.
+Responsive design suitable for desktop and mobile use.

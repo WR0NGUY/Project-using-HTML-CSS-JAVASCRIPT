@@ -1,0 +1,5 @@
+This project is a simple, interactive Quiz App built using HTML, CSS, and JavaScript. The goal of this app is to create a basic yet functional quiz interface where users can answer multiple-choice questions, receive feedback on their answers, and see their total score at the end.
+
+Features
+Multiple Choice Questions (MCQs): Users can select answers from given options.
+Score Tracking: User's total score displayed at the end of the quiz.

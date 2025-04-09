@@ -1,3 +1,4 @@
+// Function to update the clock display
 function updateClock() {
     const clockElement = document.getElementById('clock');
     
@@ -15,6 +16,21 @@ function updateClock() {
     // Update the clock display
     clockElement.textContent = `${hours}:${minutes}:${seconds}`;
 }
+
+// Function to toggle between dark and light mode
+function toggleDarkMode() {
+    const body = document.body;
+    const clock = document.getElementById('clock');
+    
+    // Toggle the 'dark-mode' class on body and clock
+    body.classList.toggle('dark-mode');
+    body.classList.toggle('light-mode');
+    clock.classList.toggle('dark-mode');
+    clock.classList.toggle('light-mode');
+}
+
+// Add event listener to toggle button
+document.getElementById('toggle-button').addEventListener('click', toggleDarkMode);
 
 // Call updateClock every second
 setInterval(updateClock, 1000);

@@ -1,0 +1,7 @@
+This is a simple digital clock built with HTML, CSS, and JavaScript that features a dark mode toggle. The clock updates every second and provides a button to switch between light and dark modes.
+
+Features
+Displays current time in HH:MM:SS format.
+Updates every second.
+Toggle between light mode and dark mode.
+Responsive design with smooth transitions.

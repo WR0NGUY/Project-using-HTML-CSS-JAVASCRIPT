@@ -1,0 +1,13 @@
+# 🛒 E-commerce Cart System
+
+A simple e-commerce shopping cart system built with **HTML, CSS, and JavaScript**. Users can browse products, add/remove items from their cart, and see the total amount before checking out.
+
+
+
+## ✨ Features
+
+- 🛍️ Product listings with name, image, and price  
+- ➕ Add to Cart / ➖ Remove from Cart  
+- 🧮 Quantity tracking and automatic subtotal/total calculation  
+- 💾 Cart persists during session (can be extended with `localStorage`)  
+- 🧾 Checkout button with placeholder logic (ready for Stripe integration)
